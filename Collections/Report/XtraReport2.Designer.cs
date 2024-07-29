@@ -339,7 +339,7 @@ namespace Collection.Report
             // 
             this.xrLine2.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot;
             this.xrLine2.BorderWidth = 1;
-            this.xrLine2.LineStyle = DevExpress.Drawing.DXDashStyle.Dash;
+            //this.xrLine2.LineStyle = DevExpress.Drawing.DXDashStyle.Dash;
             this.xrLine2.LineWidth = 2;
             this.xrLine2.LocationFloat = new DevExpress.Utils.PointFloat(350F, 30.75002F);
             this.xrLine2.Name = "xrLine2";
@@ -351,7 +351,7 @@ namespace Collection.Report
             // 
             this.xrLine1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot;
             this.xrLine1.BorderWidth = 1;
-            this.xrLine1.LineStyle = DevExpress.Drawing.DXDashStyle.Dash;
+            //this.xrLine1.LineStyle = DevExpress.Drawing.DXDashStyle.Dash;
             this.xrLine1.LineWidth = 2;
             this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(350F, 0F);
             this.xrLine1.Name = "xrLine1";

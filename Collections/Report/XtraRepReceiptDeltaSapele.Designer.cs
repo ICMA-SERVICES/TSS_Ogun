@@ -558,7 +558,7 @@
             this.Margins = new DevExpress.Drawing.DXMargins(0, 20, 44, 0);
             this.PageHeight = 1169;
             this.PageWidth = 827;
-            this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A4;
+            //this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A4;
             this.ShowPrintMarginsWarning = false;
             this.Version = "16.1";
             this.Watermark.TextTransparency = 20;

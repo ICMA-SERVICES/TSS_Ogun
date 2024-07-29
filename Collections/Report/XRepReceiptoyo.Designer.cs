@@ -852,7 +852,7 @@
             this.Margins = new DevExpress.Drawing.DXMargins(32, 17, 50, 28);
             this.PageHeight = 1169;
             this.PageWidth = 827;
-            this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A4;
+            //this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A4;
             this.Version = "18.1";
             this.BeforePrint += new DevExpress.XtraReports.UI.BeforePrintEventHandler(this.XRepReceiptoyo_BeforePrint);
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText3)).EndInit();

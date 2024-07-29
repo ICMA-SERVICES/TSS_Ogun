@@ -112,26 +112,17 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="dataSet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="bankReceiptsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>123, 17</value>
-  </metadata>
   <data name="calculatedFieldBeing.Expression" xml:space="preserve">
     <value>'Payment for '+ [Description] + ' [' +[RevenueCode]+'] ' + '&lt;&lt; ' + 'Paid at ' + [BankName] + ' - ' +[BranchName] + ' , ' +  'Deposit Slip Number ' + [DepositSlipNumber]  + ' by ' + [PaymentMethod] + ' &gt;&gt; '</value>
   </data>
   <data name="calculatedFieldBen.Expression" xml:space="preserve">
     <value>'Payment for '+ [Description] + ' [' +[RevenueCode]+'] ' + '&lt;&lt; ' + 'Paid at ' + [BankName] + ' - ' +[BranchName] + ' , ' +  'Deposit Slip Number ' + [DepositSlipNumber]  + ' by ' + [PaymentMethod] + ' &gt;&gt; '</value>
   </data>
-  <metadata name="tblCollectionReportTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>320, 17</value>
-  </metadata>
   <data name="calcBeingColl.Expression" xml:space="preserve">
     <value>'Payment for '+ [Description] + ' [' +[RevenueCode]+'] ' + '&lt;&lt; ' + 'Paid at ' + [BankName] + ' - ' +[BranchName] + ' , ' +  'Deposit Slip Number ' + [DepositSlipNumber]  + ' by ' + [PaymentMethod] + ' &gt;&gt; '</value>
   </data>

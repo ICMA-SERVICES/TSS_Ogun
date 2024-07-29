@@ -36,7 +36,7 @@ namespace Collection.Report
 
         private string PopulatebarCode(string stringraw)
         {
-
+            //LMFB|OGPDIPAY|0006|4-7-2024|154832
             string apiUrl = System.Configuration.ConfigurationManager.AppSettings["BaseURL"];
 
             //string apiUrl = "http://services.oyostatebir.com/AssessmentRepositoryService";

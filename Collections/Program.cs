@@ -54,12 +54,12 @@ namespace Collection
 
             string varg4 = MosesClassLibrary.Security.Encryption.Decrypt("wAJGdHnaqS8HiltluSOXVQ==");
 
-            string varg5 = MosesClassLibrary.Security.Encryption.Decrypt("XGTBpxxY8m7A26IoVgykqg==");
+            string varg5 = MosesClassLibrary.Security.Encryption.Decrypt("RANMgJc7Ttaa9hoNXsHL/A==");
 
             
-            string var4 = MosesClassLibrary.Security.Encryption.Decrypt("cowkqU3RAp5NnBQP5LAEFg==");
+            string var4 = MosesClassLibrary.Security.Encryption.Decrypt("RANMgJc7Ttaa9hoNXsHL/A==");
 
-            var gte = MosesClassLibrary.Security.Encryption.Encrypt("Owen@Nora");
+            var gte = MosesClassLibrary.Security.Encryption.Encrypt("Adura@10");
 
             isCentralData = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["IsCentralData"]) == 1 ? true : false;
 #if true

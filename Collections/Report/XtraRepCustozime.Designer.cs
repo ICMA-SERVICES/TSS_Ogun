@@ -387,7 +387,7 @@
             this.Margins = new DevExpress.Drawing.DXMargins(9, 11, 5, 11);
             this.PageHeight = 984;
             this.PageWidth = 693;
-            this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.B5Envelope;
+            //this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.B5Envelope;
             this.ShowPrintMarginsWarning = false;
             this.Version = "14.2";
             ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).EndInit();
