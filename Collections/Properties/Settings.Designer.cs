@@ -12,7 +12,7 @@ namespace Collection.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.4.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "18.11.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -30,17 +30,6 @@ namespace Collection.Properties {
         public string Collections_Reemsonline_GetNewDate {
             get {
                 return ((string)(this["Collections_Reemsonline_GetNewDate"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=TaxSmartSuiteRevisedABK;Persist Security Info=True;" +
-            "User ID=sa;Password=1975")]
-        public string TaxSmartSuiteConnectionString {
-            get {
-                return ((string)(this["TaxSmartSuiteConnectionString"]));
             }
         }
         
@@ -117,17 +106,6 @@ namespace Collection.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=FEMMY;Initial Catalog=TaxSmartSuiteRevisedABK;User ID=sa;Password=197" +
-            "5")]
-        public string TaxSmartSuiteRevisedConnectionString {
-            get {
-                return ((string)(this["TaxSmartSuiteRevisedConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=FEMSY;Initial Catalog=TaxSmartSuiteRevisedABK;User ID=sa;Password=197" +
             "5")]
         public string TaxSmartSuiteRevisedNewOG14022017ConnectionString {
@@ -144,6 +122,27 @@ namespace Collection.Properties {
         public string TaxSmartSuiteRevisedABKConnectionString {
             get {
                 return ((string)(this["TaxSmartSuiteRevisedABKConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=TaxSmartSuiteRevisedABK;Persist Security Info=True;" +
+            "User ID=sa;Password=1975")]
+        public string TaxSmartSuiteConnectionString {
+            get {
+                return ((string)(this["TaxSmartSuiteConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=TaxSmartSuiteRevisedABK;User ID=sa;Password=1975")]
+        public string TaxSmartSuiteRevisedConnectionString {
+            get {
+                return ((string)(this["TaxSmartSuiteRevisedConnectionString"]));
             }
         }
     }
